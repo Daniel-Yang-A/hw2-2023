@@ -1,0 +1,32 @@
+ol li:nth-child(even) {
+    color: black;
+    background-color: #376f70;
+}
+
+ol li:nth-child(odd) {
+    color: black;
+    background-color: #beeeef;
+}
+
+ol li:nth-child(10n) {
+    margin-bottom: 50px;
+}
+
+ol li:last-child {
+    margin-bottom: inherit;
+}
+
+img {
+    border: 5px;
+    margin: 10px;
+    display: inline;
+}
+
+img:hover {
+    box-shadow: 5px 5px 10px #376f70;
+}
+
+:focus {
+    box-shadow: 5px 5px 10px #376f70;
+    outline: none;
+}
